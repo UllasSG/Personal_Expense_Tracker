@@ -5,6 +5,7 @@ import FinancialRecordList from './FinancialRecordList';
 
 
 export default function Dashboard() {
+    
     const {user} = useUser();
   return (
     <div className="dashboard-container">
